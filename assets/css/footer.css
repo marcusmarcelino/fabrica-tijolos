@@ -3,13 +3,14 @@
 }
 
 #myFooter {
-   background-color: #2f319c;
+   /*background-color: #ffb66c;*/
+   background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
    color: white;
    padding-top: 10%;
 }
 
 #myFooter .footer-copyright {
-   background-color: #21224ebd;
+   background-color: #f95f22de;
    padding-top: 3px;
    padding-bottom: 3px;
    text-align: center;
@@ -50,7 +51,7 @@
 }
 
 #myFooter hr{
-   border-top: 1px solid rgba(105, 106, 173, 0.81);
+   border-top: 1px solid #fd8555de;
 }
 
 #myFooter a:hover,

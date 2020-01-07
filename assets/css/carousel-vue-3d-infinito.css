@@ -1,0 +1,59 @@
+.carousel-3d-container figure {
+   margin:0;
+}
+.carousel-3d-slide {
+   padding: 20px;
+}
+.product-card {
+   background-color: #fff;
+   padding: 35px 15px 10px 15px;
+   margin: 40px 10px;
+   max-width: 230px;
+   min-height: 210px;
+   border-radius: 7px;
+   position: relative;
+   text-align: center;
+}
+
+.product-card .product-tag {
+   position: absolute;
+   right: -6px;
+   top: 15px;
+   background-color: #FFD95B;
+   font-size: 10px;
+   padding: 7px;
+   letter-spacing: .4px;
+   text-transform: uppercase;
+   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.21);
+}
+
+.product-card .product-info {
+   display: flex;
+   align-items: center;
+   margin-top: 25px;
+   margin-left: 5px;
+}
+
+.product-card .product-info .product-text {
+   font-size: 12px;
+   text-align: left;
+   margin-left: 15px;
+}
+.product-card .product-info .product-text p {
+   margin: 4px 0;
+}
+.product-card .product-info .product-pts {
+   font-weight: 600;
+}
+
+.carousel-3d-slide {
+   border: none !important;
+   background: none !important;
+   width: 230px !important;
+   margin: 0 auto;
+}
+
+.carousel-3d-slide.current .product-card {
+   box-shadow: 10px 10px 18px -10px rgba(5, 10, 5, 0.25);
+   border: 1px solid rgb(233, 230, 230);
+}

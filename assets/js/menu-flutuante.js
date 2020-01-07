@@ -1,8 +1,8 @@
 $(window).scroll(function() {    
    var scroll = $(window).scrollTop();
    if (scroll >= 1) {               
-         $("#nuvem").addClass("ativo");    
+         $("#nav-top-fixed").addClass("ativo");    
    } else {
-         $("#nuvem").removeClass("ativo");
+         $("#nav-top-fixed").removeClass("ativo");
    }
 });

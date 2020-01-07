@@ -1,0 +1,76 @@
+html{
+   scroll-behavior: smooth;
+}
+
+body{
+   margin: 0;
+   padding: 0;
+   font-family: 'Quicksand', sans-serif;
+}
+
+#one, #two, #three {
+   min-height: 400px;
+}
+
+#banner{
+   /*padding-bottom: 5rem;*/
+   min-height: 650px;
+   background-image: linear-gradient(to right, #f75b5b 0%, #fee140 100%);
+}
+/*#banner:before {
+   content: '';
+   background: rgba(51, 51, 70, 0.69);
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+}*/
+
+#banner nav a{
+   color: #fff;
+}
+
+#nav-top-fixed{
+   background-color:#3a4950;
+}
+
+#nav-top-fixed.ativo {
+   transition: all 500ms linear;
+   position: fixed;
+   width: 100%;
+   z-index: 2;
+   height: 200px;
+}
+
+#nav-top-fixed #btn-navPanel {
+   float: left;
+   font-size: 2rem;
+}
+
+#carousel-banner img {
+   
+}
+
+::-webkit-scrollbar {
+   width: 13px;
+   height: 10px;
+   -webkit-border-radius: 16px;
+}
+
+::-webkit-scrollbar-track-piece {
+   background-color: #ffffff;
+   -webkit-border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+   height: 10px;
+   background: #f95f22de;
+   -webkit-border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+   width: 3px;
+   background: #f95f22de;
+   -webkit-border-radius: 3px;
+}
