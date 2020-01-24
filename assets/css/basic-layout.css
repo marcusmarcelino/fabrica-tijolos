@@ -31,13 +31,52 @@ body{
 
 #banner{
    background-image: linear-gradient(to right, #f75b5b 0%, #fee140 100%);
-   padding: 8rem 0;
+   padding: 4rem 0 0 0 ;
    color: #fff;
+}
+
+.card-deck {
+   text-align: -webkit-center;
+}
+
+.card-deck .card {
+   min-width: 160px;
+   max-width: 247.5px;
+   border: none;
+}
+
+.card-deck .card:hover{
+   border-radius: 5px;
+   border-bottom: 3px #f75b5b solid;
+}
+
+#nav-prods {
+   min-width: 140px;
+}
+
+.card-img-top {
+   max-width: 90px;
+}
+
+#img-banner {
+   margin: 0 auto;
+   max-width: 50%;
+   min-width: 208.48px;
 }
 
 #btn-navPanel{
    float: left;
    font-size: 2rem;
+}
+
+#content-banner{
+   display: flex;
+}
+
+@media (max-width: 700px) {  
+   #content-banner{
+      display: block;
+   }
 }
 
 @media (min-width: 1199px) {
@@ -53,18 +92,6 @@ body{
       display: block;
    }
 }
-
-/*
-#banner:before {
-   content: '';
-   background: rgba(51, 51, 70, 0.69);
-   position: absolute;
-   width: 100%;
-   height: 100%;
-   top: 0;
-   left: 0;
-}
-*/
 
 ::-webkit-scrollbar {
    width: 13px;
